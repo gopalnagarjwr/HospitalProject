@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor/Staff Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid bg-body">
+        <div class="row">
+            <p class="text-center h1 mb-5 mt-5 ">Email Password</p>
+        </div>
+        <div class="row pb-5">
+            <form action="d" method="get" class="bg-light col-sm-3 m-auto pb-5 rounded"><br>
+                Email : <input type="email" class="w-100 p-2 rounded mt-1 mb-3" placeholder="Email address" required name="email"><br>
+                Password : <input type="password" class="w-100 p-2 rounded mt-1 mb-2" placeholder="Password" required name="pass">
+                Patient / Staff <select  class="border-white rounded mb-3 " required name="s">
+					       <option>Choose Option</option >                 
+                          <option value="patient">Patient</option>
+                          <option value="staff">Staff</option>
+                                               </select><br><br>
+                <button type="submit" class="w-100 p-2 rounded mb-4 bg-danger h5"> Submit</button><br>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
